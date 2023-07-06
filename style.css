@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+ 
+  display: flex;
+  /* min-width: 100%; */
+  /* height: auto; */
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.pagConfig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.pagConfig .title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 0.5rem;
+  /* width: 90vw; */
+  
+  /* border: 2px solid yellow; */
+}
+
+.pagConfig .title h1 {
+  /* width: 80%; */
+  font-size: 1.8rem;
+
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+}
+
+/* .agrupar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid blue;
+  padding: 0.5rem;
+  margin: 1rem;
+} */
+/* 
+.foto-pagina {
+  border: 4px solid red;
+} */
+
+
+#foto-pagina img {
+  width: 90vw;
+}
+
+.texto p {
+  margin: 1.2rem 0;
+  line-height: 1.5rem;
+}
+
+.pagConfig .doacao {
+  margin: 1.5rem 0;
+}
+
+/* .doacao .imgDoacao {
+
+}
+
+.doacao .textoDoacao {
+
+} */
+
+/* .footer {
+
+} */
+
+/* .title{
+   
+    min-width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 4rem;
+    
+  }
+  
+  .subtitle{
+    display: block;
+    min-width: 100%;
+    height: auto;
+    margin-top: 4rem;
+  } */
+ 
+  
+  /* #foto-pagina{
+    display: flex;
+    border-radius: 5px;
+    
+    float: left !important;
+  }
+
+  #foto-pagina img{
+   display:flex;
+    min-width: 50%;
+    height: auto;
+    
+    
+  } */
+
+/* .agrupar{
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
+}
+
+.texto{
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  width: 50%;
+ 
+  display: flex;
+  text-align: justify;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 2rem;
+} */
+
+  /* .alinhar .doacao{
+    float: right;
+    display: flex;
+    border-radius: 20px;
+    width: 15px;
+    height: 35vh ;
+    background-color: #0a7508;
+    animation: pulsar 1s infinite;
+  } */
+  .doacao{
+    
+    width: 250px;
+    padding: 0.5rem;
+    height: 30vh; 
+   display: flex;
+    margin-right: 10rem;
+    margin-top: -43rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a7508;
+  
+    
+    
+    border-radius: 20px;
+  
+    cursor: pointer;
+    animation: pulsar 1s infinite;
+  }
+
+.doacao .imgDoacao{
+    display: flex;
+    margin-top: 0.4em;
+    background-color: #ffffff;
+    width: 12em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .doacao .imgDoacao img{
+    width: 90%;
+  }
+  
+  .doacao .textoDoacao{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .doacao .textoDoacao h2{
+    margin-bottom: 1em;
+  } 
+
+@keyframes pulsar{
+    0% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+    /*medias*/
+
+
+/* @media screen and (width:2560px){
+
+
+
+
+
+  #foto-pagina img{
+    display:flex;
+    width: 30%;
+  }
+  
+
+  .alinhar .doacao{
+   display: flex;
+   min-width: 31px;
+  }
+
+  .texto{
+    display: flex;
+    width: 100%;
+  }
+} */
+
+
+/* @media screen and (min-width:1400px){
+
+ .pagConfig{
+  display: flex;
+  width: 80%;
+ }
+
+ #foto-pagina img{
+  display: flex;
+  min-width: 53%;
+} */
+
+  /* .alinhar .doacao{
+    display: flex;
+    width: 10px;
+   }
+
+   .doacao{
+    margin-left:2rem;
+   }
+
+   .texto{
+    display: flex;
+    width: 40%;
+   }
+}  */
+
+
+/* @media screen and (min-width:1280px){
+      
+
+  
+  .texto{
+    width: 53%;
+  }
+
+  .alinhar .doacao{
+   
+    min-width: 20%;
+  }
+
+  #foto-pagina img{
+  width: 53%;
+  }
+
+  .doacao{
+    margin-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 1000px){
+  #foto-pagina img{
+    width: 400px;
+  }
+  .alinhar .doacao{
+   
+    min-width: 30%;
+  }
+
+  .doacao{
+    margin-right: 4rem;
+  }
+
+}
+
+@media screen and (min-width: 1920px){
+  .texto{
+    display: flex;
+    width: 53%;
+  }
+
+  .alinhar .doacao{
+   
+    min-width: 15%;
+  }
+
+} */
+
+
+/* @media screen and  (min-width:1680px){
+
+.pagConfig{
+  
+  width: 60%;
+}
+
+  .alinhar .doacao{
+   
+    width: 11%;
+ 
+} */
+
+/* #foto-pagina img{
+  
+  width: 80%;
+}
+
+.texto{
+
+  
+  width: 49%;
+ }
+} */
+
+/* @media screen and (width: 500px) {
+  
+  .pagConfig{
+    display: flex;
+   
+    flex-direction: column;
+
+    background-color: aqua;
+  }
+
+  
+  
+  #foto-pagina img{
+    width: 50%;
+    }
+
+    .alinhar .doacao{
+      flex-direction: column;
+     
+
+      width: 100px;
+
+  }
+
+  .doacao{
+    margin-right: 2rem;
+  }
+} */
+  
+
+  
+
+@media (min-width: 640px) {
+
+  .pagConfig .title h1 {
+    font-size: 2.5rem;
+
+  }
+
+  .pagConfig .title p {
+    font-size: 1.5rem;
+
+  }
+
+  #foto-pagina img{
+    width: 100%;
+  }
+
+  .texto {
+    font-size: 1.5rem;
+  }
+  
+}
+
+@media (min-width: 768px) {
+
+  .pagConfig {
+    justify-content: center;
+    /* width: 90%; */
+  }
+
+  .pagConfig .title h1 {
+    font-size: 1.5rem;
+    width: 90%;
+
+  }
+  
+  #foto-pagina img{
+    width: 90%;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .footer .logoCemak img {
+    width: 50%;
+  }
+
+  .footer .logoCemak .ouvidoriaCemak {
+    font-size: 1.5rem;
+  }
+
+  .footer .socialCemak {
+    border: 2px solid gold;
+    /* font-size: 1.5rem; */
+    display: flex;
+
+  }
+
+  /* .description{
+    display: flex;
+  }
+
+  #foto-pagina img{
+    width: 90%;
+  } */
+
+}
+
+@media (min-width: 1024px) {
+ .description{
+  
+  flex-direction: row;
+ }
+
+ #foto-pagina img{
+  width: 80%;
+
+  }
+
+
+
+  .texto{
+    text-align: justify;
+    width: 80%;
+  }
+
+  .pagConfig{
+    border: 3px solid black;
+    width: 98%;
+    margin: auto;
+    
+  }
+}
+
+@media (min-width: 1280px) {
+  .title{
+   
+    min-width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    
+  }
+
+  .pagConfig{
+    display: flex;
+    width: 90%;
+    margin-left: 3rem;
+  }
+
+  .doacao{
+      
+    margin-right: -20rem;
+  }
+
+}
+
+@media(min-width: 2000px){
+  .foto-pagina img{
+    display: flex;
+    width: 10vw;
+    }
+
+    .pagConfig{
+      display: flex;
+      width: 60%;
+      margin-left: 3rem;
+    }
+
+    .texto{
+      width: 80%;
+    }
+}
+
+@media (min-width: 1500px) {
+  #foto-pagina img{
+    width: 80%;
+    }
+
+    .texto{
+      width: 80%;
+    }
+
+    .pagConfig{
+      display: flex;
+      width: 85%;
+      margin-left: 3rem;
+    }
+
+    .doacao{
+      
+      margin-left: 6rem;
+    }
+
+}
+
+
+
+@media (min-width: 1800px) {
+  #foto-pagina img{
+    width: 70%;
+    }
+
+    .texto{
+      width: 70%;
+    }
+
+    .doacao{
+      margin-right: 12rem;
+    }
+}
+
+
+@media (min-width: 2560px) {
+  .pagConfig{
+    display: flex;
+    width: 70%;
+  }
+
+  .texto{
+    width: 60%;
+  }
+
+  .title{
+   
+    min-width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 9rem;
+    margin-top: 4rem;
+    
+  }
+  .description{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+   }
+
+   
+#foto-pagina img{
+  width: 60%;
+  }
+
+}

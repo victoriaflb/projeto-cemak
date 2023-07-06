@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background-card);
+  width: 100%;
+  gap: 0.8rem;
+  padding-bottom: 1rem;
+}
+
+.footer .logoCemak {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.2rem;
+}
+
+.footer .logoCemak img {
+  width: 40%;
+}
+
+.footer .logoCemak .ouvidoriaCemak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+
+.footer .socialCemak {
+  padding: 0.5rem;
+}
+
+.footer .textoSocial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  color: white;
+}
+
+.footer .midiaSocial nav ul li {
+  /* border: 2px solid blue; */
+  margin: 0 0.8rem;
+  he
+}
+
+.footer .botaoDoacao {
+
+  padding: 0.8rem 0 1.2rem;
+}
+
+.footer .doacaoTexto {
+  color: white;
+}
